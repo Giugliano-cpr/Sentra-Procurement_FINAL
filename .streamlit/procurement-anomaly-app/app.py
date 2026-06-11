@@ -377,8 +377,8 @@ tab_dash, tab_ueber, tab_regel, tab_ml, tab_komb = st.tabs(
 # ----- Dashboard (Einkäufer-Sicht) -----------------------------------------
 with tab_dash:
     st.markdown(
-        '<p class="sentra-sub">Entscheidungsrelevante Übersicht für den Einkauf: '
-        'Was ist zu prüfen, wo liegt das größte Risiko?</p>',
+        '<p class="sentra-sub">Entscheidungsrelevante Übersicht für den Einkauf '
+        </p>',
         unsafe_allow_html=True,
     )
     auffaellig = df[df["kombinierte_kategorie"] != "unauffaellig"].copy()
